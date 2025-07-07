@@ -1,0 +1,35 @@
+.text {
+  font-size: 1.2em;
+  margin-top: 20px;
+  /* Text color */
+  color: #000000;
+    /* Font family */
+    font-family: Arial, sans-serif;
+    /* Text alignment */
+    text-align: center;
+    /* Text decoration */
+    text-decoration: none;
+    /* Text shadow */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    /* Letter spacing */
+    letter-spacing: 0.1em;
+    /* Line height */
+    line-height: 1.5;
+    /*rainbow text */
+    background: linear-gradient(to right, #c52700, #cc6a1f);
+    background-clip: text;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    animation: rainbow 3s infinite;
+    
+}
+@keyframes rainbow {
+      0% {
+        background-position: 0 0;
+      }
+      100% {
+        background-position: 100% 0;
+      }
+    }
